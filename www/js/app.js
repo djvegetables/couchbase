@@ -60,7 +60,7 @@
             todoDatabase.createDesignDocument("_design/todo", todoViews);
             todoDatabase.listen();
           }, function(error) {
-            // There was an error creating the database
+            // There was an error creating the database.
           });
         });
       }
